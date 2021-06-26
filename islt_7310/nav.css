@@ -1,0 +1,16 @@
+ul li {
+display: inline-block;  
+border: 3px solid black;
+width: 150px;
+list-style-type: none;
+margin-left: 10px; 
+text-align: center;
+}
+
+ul li a {
+display: block;
+padding: 15px;
+text-decoration: none;
+color: black; 
+font-size: 1.5em;
+}
