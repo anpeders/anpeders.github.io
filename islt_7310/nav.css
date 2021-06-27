@@ -14,3 +14,33 @@ text-decoration: none;
 color: black; 
 font-size: 1.5em;
 }
+
+/* Dropdown Menu */
+
+nav ul {
+    position: relative;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
