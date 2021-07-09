@@ -1,10 +1,32 @@
 /*Navigation CSS*/
 
+label {
+    font-size: 26px;
+    display: none;   
+}
+
+#toggle {
+    display: none;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.current{
+        background-color: goldenrod;
+    }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;   
+    display: flex;
     }
     
 nav>ul li {
@@ -13,23 +35,23 @@ nav>ul li {
     font-weight: bold;
     }
 
-nav ul li {
-    margin-right: 1em;
-    }
 
 nav a {
     text-decoration: none;
     display: block;
-    border: 3px solid black;
     padding: 15px;
     }
+
+nav a:visited {
+    text-decoration: none;
+}
     
 nav a:link{
     background-color: white;
     }
 
 nav a:hover, nav a:focus {
-    background-color: cornsilk;
+    background-color: goldenrod
     }
 
 nav a:active{
@@ -45,3 +67,39 @@ nav ul>li ul {
 nav>ul>li:hover>ul{
     display: block;
     }
+
+@media screen and (max-width:640px) { 
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: none;       
+        width: 90%;        
+    }
+
+    nav ul li {
+        
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    label {
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+
+    #toggle:checked + ul {
+        display: block;
+    }
+
+    .no-mobile {
+        display: none;
+    }
+    
+
+   
+}   

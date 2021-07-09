@@ -3,31 +3,41 @@
     <!-- ABOUT PAGE -->
     <head>
         <meta charset="utf-8">
-        <title>About</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css"/>    
         <link rel="stylesheet" href="nav.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>       
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a>
-                    <ul>
-                        <li><a href="">Link 1</a></li>
-                        <li><a href="">Link 2</a></li>
-                        <li><a href="">Link 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="reflection.html">Reflection</a></li>
-                <li><a href="#contact.html">Contact</a></li>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <title>Andrew Pederson MLIS Portfolio</title>
+</head>
 
+<body>
+<nav>
+   
+   <h1>Andrew Pederson MLIS Portfolio</h1>
+   <label for="toggle"> &#9776; </label>
+   <input type="checkbox" id="toggle"/>
+
+   <ul>
+       <li ><a href="index.html">Home</a></li>
+       <li><a class="current" href="about.html">About</a></li>
+       <li><a href="projects.html">Projects</a>
+           <ul>
+               <li class="no-mobile"><a href="">Link 1</a></li>
+               <li class="no-mobile"><a href="">Link 2</a></li>
+               <li class="no-mobile"><a href="">Link 3</a></li>
            </ul>
-        </nav>
+       </li>
+       <li><a href="reflection.html">Reflection</a></li>
+       <li><a href="#contact.html">Contact</a></li>
+
+  </ul>
+</nav>
         
         <div class="grid-container">
             <header class="item1">
-                <h1>About</h1>
+                <h2>About</h2>
             </header>
         
             <main class="item2">
@@ -41,7 +51,7 @@
                 then started this Master of Library and Information Science program in spring 2020. I plan on graduating in fall 2022. </p>
                 <a href="../islt_7310/pederson-resume.pdf">Resume</a>
                 <a href="https://www.youtube.com/watch?v=9gdjCREiVQw">Video Resume</a>
-                <blockquote>KEEP OUT OR ENTER. I'm a sign, not a cop. - The Simpsons</blockquote>
+                <blockquote><em>"I was saying Boo-Urns."</em> - The Simpsons</blockquote>
             </main>
             <div class="item3">
                 <img src="headshot.JPG" alt="Photo of Andrew Pederson"/>
