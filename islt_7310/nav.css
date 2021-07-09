@@ -16,6 +16,7 @@ h1 {
 nav {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .current{
@@ -42,9 +43,6 @@ nav a {
     padding: 15px;
     }
 
-nav a:visited {
-    text-decoration: none;
-}
     
 nav a:link{
     background-color: white;
