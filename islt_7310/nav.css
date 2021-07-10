@@ -49,11 +49,11 @@ nav a:link{
     }
 
 nav a:hover, nav a:focus {
-    background-color: goldenrod
+    background-color: orange;
     }
 
 nav a:active{
-    background-color: goldenrod;
+    background-color: orange;
     }
 
 nav ul>li ul {
