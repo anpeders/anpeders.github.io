@@ -36,6 +36,10 @@ section p:not(:first-of-type) {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    background-color: gold;
+    padding: 40px;
+    border-radius: 10px;
+    color: blue;
 }
 
 body {
