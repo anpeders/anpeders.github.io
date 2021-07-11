@@ -46,23 +46,29 @@ a:visited {
     color: blue;
 }
 
+.icon {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+}
+
 .item1 {
     grid-area: header;
 }
 .item2 { 
     grid-area: main; 
-    margin-right: 18em;
+    margin-right: 4em;
+    
 }
 .item3 {
     grid-area: right;   
 }
 .item4 {
     grid-area: footer;
+    font-size: 10px;
+    background-image: url("images/honeycomb.png");
 }
 
-img {
-    margin-right: 1em;
-}
 
 .grid-container {
     display: grid;
@@ -84,7 +90,8 @@ img {
 }
 
 footer {
-    margin-top: 15%;}
+    margin-top: 2%;
+}
 
 /* Mobile and Tablet Style */
 
