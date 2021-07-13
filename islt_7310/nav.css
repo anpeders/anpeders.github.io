@@ -72,22 +72,74 @@ nav>ul>li:hover>ul{
 
     nav {
         display: block;
+        position: static;
+        
     }
 
     nav ul {
         display: none;       
-        width: 90%;        
+        width: 90%;
+        z-index: 1;
+        position: absolute;
+          
     }
 
     nav ul li {
         
         display: block;
         width: 100%;
-        margin: 0;
+        margin: 0; 
     }
 
     nav a {
         margin-left: 0%;
+        border-radius: 0px;
+    }
+
+    label {
+        display: block;
+        float: right;
+        cursor: pointer;
+    }
+
+    #toggle:checked + ul {
+        display: block;
+    }
+
+    .no-mobile {
+        display: none;
+    }
+    
+
+   
+}   
+
+@media screen and (max-width:960px) { 
+
+    nav {
+        display: block;
+        position: static;
+        
+    }
+
+    nav ul {
+        display: none;       
+        width: 90%;
+        z-index: 1;
+        position: absolute;
+          
+    }
+
+    nav ul li {
+        
+        display: block;
+        width: 100%;
+        margin: 0; 
+    }
+
+    nav a {
+        margin-left: 0%;
+        border-radius: 0px;
     }
 
     label {
