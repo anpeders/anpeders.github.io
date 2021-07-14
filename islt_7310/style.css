@@ -40,6 +40,7 @@ h1 {
     padding: 40px;
     border-radius: 10px;
     color: blue;
+    width: 250px;
 }
 
 h2, h3 {
@@ -132,6 +133,11 @@ footer {
     nav {
         width: 100%;
     }
+
+    h1 {
+        width: 100%;
+        border-radius: 0px;
+    }
     
     body {
         padding: 0%;
@@ -162,6 +168,11 @@ footer {
     body {
         padding: 0%;
     }
+
+    h1 {
+        width: 100%;
+        border-radius: 0px;
+    }
     .grid-container, .projects-container { 
         font-size: 90%;
         width: 100%;
@@ -189,12 +200,12 @@ footer {
 
 @media screen and (max-width:1024) { 
     .no-grid { 
-        font-size: 75%;
+        font-size: 90%;
     }
 }
 @media screen and (max-width:640px) { 
     .no-grid { 
-        font-size: 50%;
+        font-size: 90%;
         width: 100%;
     }
 }   
