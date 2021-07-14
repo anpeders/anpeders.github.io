@@ -31,6 +31,7 @@ section p:not(:first-of-type) {
 
 * {
     font-family: Roboto, sans-serif;
+    background-color: seashell;
 }
 
 
@@ -39,6 +40,10 @@ h1 {
     background-color: gold;
     padding: 40px;
     border-radius: 10px;
+    color: blue;
+}
+
+h2, h3 {
     color: blue;
 }
 
