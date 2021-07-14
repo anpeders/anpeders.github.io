@@ -1,28 +1,4 @@
 /* General Style CSS */
-
-
-/* UNUSED; SAVE
-
-h1 {
-    color: #333399;
-}
-
-section p:first-of-type::first-letter {
-    font-weight: bold;
-    font-size: larger;
-  
-
-section p:not(:first-of-type) {
-    text-indent: 1em;
-}
-
-
-* {
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
- */
-
  
  @font-face {
     font-family: Roboto;   
@@ -173,6 +149,7 @@ footer {
         width: 100%;
         border-radius: 0px;
     }
+
     .grid-container, .projects-container { 
         font-size: 90%;
         width: 100%;
@@ -198,11 +175,12 @@ footer {
     }
 }   
 
-@media screen and (max-width:1024) { 
+@media screen and (max-width:1024px) { 
     .no-grid { 
         font-size: 90%;
     }
 }
+
 @media screen and (max-width:640px) { 
     .no-grid { 
         font-size: 90%;
