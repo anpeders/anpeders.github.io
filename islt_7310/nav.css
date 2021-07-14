@@ -23,6 +23,7 @@ nav {
         border-bottom: 8px solid gold;
     }
 
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -43,7 +44,6 @@ nav a {
     display: block;
     padding: 15px;
     border-radius: 10px;
-    margin-left: 5px;
     }
 
     
