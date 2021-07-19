@@ -45,6 +45,20 @@ a:visited {
     padding: 0;
 }
 
+/* FORM STYLE */
+
+form input {
+    display: block;
+    margin-bottom: 1%;
+}
+
+form textarea {
+    display: block;
+    margin-bottom: 1%;
+    width: 30em;
+    height: 10em;
+}
+
 /* GRID STYLE */
 
 .grid-container {
@@ -150,7 +164,7 @@ tbody tr:nth-child(odd) {
 
 /* Mobile and Tablet Style */
 
-@media screen and (max-width:960px) { 
+@media screen and (max-width:1080px) { 
 
     nav {
         width: 100%;
@@ -182,10 +196,10 @@ tbody tr:nth-child(odd) {
         width: 80%;
         margin:auto;
     }
-
+    
     
 }   
-@media screen and (max-width:640px) { 
+@media screen and (max-width:959px) { 
 
     body {
         padding: 0%;
@@ -219,6 +233,14 @@ tbody tr:nth-child(odd) {
         max-width: 100%;
         margin:auto;
     }
+
+    form textarea {
+        display: block;
+        margin-bottom: 1%;
+        max-width: 90%;
+        height: 10em;
+    }
+    
 }   
 
 @media screen and (max-width:1024px) { 
