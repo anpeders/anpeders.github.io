@@ -3,6 +3,8 @@
 label {
     font-size: 36px;
     display: none;   
+    z-index: 2;
+    position: relative;
 }
 
 #toggle {
@@ -72,7 +74,7 @@ nav>ul>li:hover>ul{
     display: block;
     }
 
-@media screen and (max-width:640px) { 
+@media screen and (max-width:1080px) { 
 
     nav {
         display: block;
@@ -82,7 +84,7 @@ nav>ul>li:hover>ul{
 
     nav ul {
         display: none;       
-        width: 90%;
+       
         z-index: 1;
         position: absolute;
           
@@ -91,7 +93,7 @@ nav>ul>li:hover>ul{
     nav ul li {
         
         display: block;
-        width: 100%;
+      
         margin: 0; 
     }
 
@@ -102,11 +104,12 @@ nav>ul>li:hover>ul{
     nav a {
         margin-left: 0%;
         border-radius: 0px;
+        width: 80%;
     }
 
     label {
         display: block;
-        float: right;
+        float: left;
         cursor: pointer;
     }
 
