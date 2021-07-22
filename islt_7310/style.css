@@ -1,6 +1,6 @@
 /* General Style CSS */
  
- @font-face {
+@font-face {
     font-family: Roboto;   
     src: url("Roboto-Regular.ttf");   
     }
@@ -45,6 +45,10 @@ a:visited {
     padding: 0;
 }
 
+.item3 img {
+    width: 55%;
+}
+
 /* FORM STYLE */
 
 form input {
@@ -67,7 +71,7 @@ form textarea {
     'header header'
     'main right'
     'footer footer';
-    grid-gap: 1em;   
+    grid-gap: 1em 8em;   
 }
 
 .item1 {
@@ -75,19 +79,20 @@ form textarea {
 }
 .item2 { 
     grid-area: main; 
-    margin-right: 4em;
-    
 }
+
 .item3 {
-    grid-area: right;   
+    grid-area: right; 
 }
+
+
+
 .item4 {
     grid-area: footer;
 }
 
 footer {
-    font-size: 10px;
-    background-image: url("images/honeycomb.png");
+    font-size: 12px;
 }
 
 .item {
@@ -99,7 +104,7 @@ footer {
 .projects-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-gap: 2em;
+    grid-gap: 2em 10em;
 }
 
 .projects-container img {
@@ -118,7 +123,9 @@ footer {
 /* Table Style */
 
 figure, table {
-    width: 450px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 table, th, td {
@@ -127,13 +134,14 @@ table, th, td {
 
 figcaption {
     text-align: center;
+    font-weight: bolder;
 }
 
 thead, tfoot {
     background-color: cornflowerblue;
 }
 
-tbody tr:nth-child(odd) {
+tbody tr:nth-child(even) {
     background-color: gold;
 }
 
@@ -176,7 +184,7 @@ tbody tr:nth-child(odd) {
     }
     
     body {
-        padding: 0%;
+        padding: 1%;
     }
     .grid-container, .projects-container { 
         font-size: 80%;
@@ -196,13 +204,17 @@ tbody tr:nth-child(odd) {
         width: 80%;
         margin:auto;
     }
+
+    .projects-container img {
+        width: min-content;
+    }
     
     
 }   
-@media screen and (max-width:959px) { 
+@media screen and (max-width:1500px) { 
 
     body {
-        padding: 0%;
+        padding: 1%;
     }
 
     h1 {
@@ -240,6 +252,13 @@ tbody tr:nth-child(odd) {
         max-width: 90%;
         height: 10em;
     }
+
+    .projects-container img {
+        width: min-content;
+        justify-self: center;
+
+    }
+    
     
 }   
 
@@ -255,6 +274,21 @@ tbody tr:nth-child(odd) {
         width: 100%;
     }
 }   
+
+/* Large Screen */
+
+@media screen and (min-width: 2200px) {
+    body {
+        width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item2, .item3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
 
 /* Print Style */
 
@@ -293,5 +327,3 @@ tbody tr:nth-child(odd) {
     }
 
 }
-
-

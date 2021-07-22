@@ -41,11 +41,11 @@
 
      <header><h2>Contact</h2></header>
      <main class="item2">
-         <form action="mailto:apederson@mail.missouri.edu?Subject=Portfolio&nbsp;Website&nbsp;Contact" method="post">
-             First Name: <input type="text" id="firstname" autofocus>
-             Last Name: <input type="text" id="lastname">
+         <form id="emailform" action="mailto:apederson@mail.missouri.edu?Subject=Portfolio&nbsp;Website&nbsp;Contact" method="post">
+             First Name: <input type="text" id="firstname" name="firstname" autofocus>
+             Last Name: <input type="text" id="lastname" name="lastname">
              Email Address: <input type="email" id="email">
-             Message: <textarea id="message"></textarea>
+             Message: <textarea id="message" name="message" form="emailform"></textarea>
              <input type="submit" id="submit" value="Submit">
          </form>
           
