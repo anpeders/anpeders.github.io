@@ -11,7 +11,6 @@ label {
     display: none;
 }
 
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -21,7 +20,6 @@ nav {
 .current {
         border-bottom: 8px solid gold;
     }
-
 
 nav ul {
     list-style-type: none;
@@ -46,7 +44,6 @@ nav a {
     width: fit-content;
     border-radius: 10px;
     }
-
     
 nav a:link{
     background-color: white;
@@ -74,26 +71,23 @@ nav>ul>li:hover>ul{
     display: block;
     }
 
-@media screen and (max-width:1080px) { 
+/* Mobile Navigation */
+
+@media screen and (max-width:640px) { 
 
     nav {
         display: block;
-        position: static;
-        
+        position: static; 
     }
 
     nav ul {
         display: none;       
-       
         z-index: 1;
-        position: absolute;
-          
+        position: absolute;  
     }
 
-    nav ul li {
-        
-        display: block;
-      
+    nav ul li {        
+        display: block; 
         margin: 0; 
     }
 
@@ -120,12 +114,9 @@ nav>ul>li:hover>ul{
     .no-mobile {
         display: none;
     }
-    
-
-   
 }   
 
-@media screen and (max-width:1500px) { 
+@media screen and (max-width:1080px) { 
 
     nav {
         display: block;
@@ -172,7 +163,4 @@ nav>ul>li:hover>ul{
     .no-mobile {
         display: none;
     }
-    
-
-   
 }   
