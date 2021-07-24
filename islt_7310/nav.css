@@ -44,7 +44,8 @@ nav a {
     width: fit-content;
     border-radius: 10px;
     }
-    
+
+
 nav a:link{
     background-color: white;
     }
@@ -121,7 +122,6 @@ nav>ul>li:hover>ul{
     nav {
         display: block;
         position: static;
-        
     }
 
     nav ul {
@@ -129,11 +129,9 @@ nav>ul>li:hover>ul{
         width: 90%;
         z-index: 1;
         position: absolute;
-          
     }
 
     nav ul li {
-        
         display: block;
         width: 100%;
         margin: 0; 
@@ -143,6 +141,7 @@ nav>ul>li:hover>ul{
         margin-left: 0%;
         border-radius: 0px;
         border-bottom: none;
+        width: 90%;
     }
 
     .current {
