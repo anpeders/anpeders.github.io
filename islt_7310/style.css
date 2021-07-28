@@ -31,10 +31,6 @@ footer {
     margin-top: 2%;
 }
 
-footer img:hover {
-    transform: scale(2);
-}
-
 a:visited {
     color: blue;
 }
